@@ -1,0 +1,89 @@
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.create-container {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.475);
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-box-todo {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.662);
+  border-radius: 4px;
+}
+
+.create-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  margin-left: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+
+.task-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.799);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  
+}
+
+
+
+
+.task-buttons button {
+  margin-left: 4px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-buttons button.edit-btn {
+  background-color: #28a745;
+  color: white;
+ 
+  
+  
+}
+
+.task-buttons button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  
+}
+.save-btn{
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
